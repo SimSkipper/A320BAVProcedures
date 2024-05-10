@@ -20,16 +20,16 @@ a {
     background: #042b3e;
 }
 
-.pf {
-    color: green;
-}
-
 .list h2 {
     color: #fff;
     font-size: 24px;
     padding: 10px 0;
     margin-left: 5px;
     display: inline-block;
+}
+
+.pf {
+    color: green;
 }
 
 .list label {
