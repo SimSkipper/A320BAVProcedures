@@ -20,6 +20,10 @@ a {
     background: #042b3e;
 }
 
+.checklist {
+    color: #00BFFF;
+}
+
 .list h2 {
     color: #fff;
     font-size: 24px;
@@ -34,10 +38,6 @@ a {
 
 .pm {
     color: yellow;
-}
-
-.checklist {
-    color: #00BFFF;
 }
 
 .list label {
