@@ -36,6 +36,10 @@ a {
     color: yellow;
 }
 
+.checklist {
+    color: #00BFFF;
+}
+
 .list label {
     position: relative;
     display: block;
