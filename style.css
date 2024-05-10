@@ -29,7 +29,11 @@ a {
 }
 
 .pf {
-    color: green;
+    color: #66FF00;
+}
+
+.pm {
+    color: yellow;
 }
 
 .list label {
