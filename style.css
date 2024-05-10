@@ -20,6 +20,10 @@ a {
     background: #042b3e;
 }
 
+.list pf {
+    color: green;
+}
+
 .list h2 {
     color: #fff;
     font-size: 24px;
