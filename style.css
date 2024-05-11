@@ -10,13 +10,33 @@ body {
     background: #001925;
 }
 
+br {
+    background: #042b3e;
+}
+
 p {
     color: white;
     background: #042b3e;
-    text-indent: 2em;
+    padding: 10px 10px 10px 10px;
+    position: relative;
 }
 
 a {
+    color: white;
+}
+
+h2 {
+    color: white;
+    background: #042b3e;
+    font-size: 30px;
+    padding: 10px 50px 0px 10px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.list ul li {
+    margin-left: 50px;
+    font-style: italic;
     color: white;
 }
 
@@ -26,8 +46,8 @@ a {
     background: #042b3e;
 }
 
-.checklist {
-    color: #00BFFF !important;
+.list h2.checklist {
+    color: #00BFFF;
 }
 
 .list h2 {
@@ -36,14 +56,6 @@ a {
     padding: 10px 0;
     margin-left: 5px;
     display: inline-block;
-}
-
-.pf {
-    color: #66FF00;
-}
-
-.pm {
-    color: yellow;
 }
 
 .list label {
@@ -77,7 +89,20 @@ a {
     transform: rotate(-45deg);
 }
 
+.list span.pf {
+    color: #66FF00;
+}
+
+.list span.pm {
+    color: yellow;
+}
+
+.list span.checklist {
+    color: #00BFFF;
+}
+
 .list span {
+    color: white;
     position: relative;
     left: 40px;
     transition: 0.5s;
