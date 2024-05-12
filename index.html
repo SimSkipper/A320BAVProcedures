@@ -1,148 +1,2856 @@
-<p><b><u>At green dot:</u></b></p>
+<!DOCTYPE html>
+<html lang="en">
 
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>Flaps 1:</b> ORDER</span>
-</label>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A32X BAV Flows & Checklists</title>
+</head>
 
-<p><b><u>Before Intercept of ILS:</u></b></p>
+<body>
+    <div>
+        <h2>BAV A32X Flows & Checklists</h2>
+    </div>
 
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>Approach button:</b> PRESS</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>Both AP:</b> ENGAGE</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>LOC:</b> CHECK ARMED</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>G/S:</b> CHECK ARMED</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>LOC CAPTURE:</b> MONITOR</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>G/S CAPTURE:</b> MONITOR</span>
-</label>
-<p><b><u>When G/S Captured:</u></b></p>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>G/A Altitude:</b> SET</span>
-</label>
+    <div style="height: 20px; background-color: #042b3e"></div>
+    <p style="color: #66FF00;"><b>Pilot Flying (PF)</b></p>
+    <p style="color: yellow"><b>Pilot Monitoring (PM)</b></p>
+    <p><b>* Only steps to be completed during transit stop</b></p>
 
-<p><b><u>At 2000 ft AGL:</u></b></p>
+    <div class="list">
+        <h2>Flight Planning</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>BAV Ops:</b> Select Flight</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>SimBrief:</b> Flight Plan</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>File Flight Plan:</b> Online Network</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>OFP:</b> Review</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Charts:</b> Setup & Review</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Weather & Notams:</b> Review</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Fuel Requirement:</b> Any Extra</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Pilot Client:</b> Connect</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>ACARS/Merlin:</b> Prepare</span>
+        </label>
+    </div>
+    <div class="list">
+        <h2>Prelim Cockpit Prep</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>EFB:</b> BOTH SETUP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ATIS:</b> OBTAIN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Engine Master 1 + 2:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Engine Mode Selector:</b> NORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Wx Radar & Pred Windshear:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Landing Gear Lever:</b> DOWN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Wipers:</b> BOTH OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Battery Voltage:</b> CHECK +25.5V</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Bat 1 + 2:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Ext Pwr:</b> ON (If Available)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>System Self Test:</b> WAIT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU Fire Test:</b> PERFORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU Start:</b> AS REQ/No Ext Power</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU Bleed:</b> AS REQ (NOT if Air Unit is connected)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Air Con Panel:</b> SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Cockpit Lights:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* ECAM:</b> RCL (3s)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* ECAM:</b> DOOR(Oxy) HYD(Qty) ENG(Oil Qty) CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Flaps:</b> CHECK POSITION</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Speed Brake:</b> Retracted & Disarmed</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Parking Brake:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Accu Pressure:</b> Check Green Band/Y Elec Pump if req</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Rain Repellent:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Circuit Breakers:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Gear Pins and Covers:</b> ONBOARD and STOWED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Walkaround/Exterior Inspection</b></span>
+        </label>
+    </div>
 
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>Flaps 2:</b> ORDER</span>
-</label>
+    <div class="list">
+        <h2>Cockpit Prep</h2>
+        <p><b><u>Overhead</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* All White Lights:</b> EXTINGUISH</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Crew Supply Oxygen:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* RCRD GND CTR:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>CVR Test:</b> TEST (3s)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Evac:</b> PURS/CAPT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* All IR Mode Selectors:</b>NAV</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Strobe:</b> AUTO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nav & Logo:</b> Pos 1</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Signs:</b> SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Probe/Window Heat:</b> CHECK AUTO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>LDG ELEV knob:</b> AUTO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* PACK FLOW:</b> AS REQ</span>
+        </label>
+        <p>A319: LO below 138 psg, HI abnorm hot and humid, else NORM</p>
+        <p>A320: LO below 141 psg, HI abnorm hot and humid, else NORM</p>
+        <p>A321: ECON FLOW pb if below 168 psg</p>
+        <p>A318: HI FLOW pb if abnorm hot and humid</p>
 
-<p><b><u>When Flaps 2:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Electrical Panel:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ELEC pb ECAM:</b> PRESS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>BAT 1 + 2:</b> Each OFF then ON</span>
+        </label>
+        <p>After 10s check ELEC SD page - charge of each Bat is below 60A and decreasing</p>
+        <p>If either is not below 60A - wait until end of charging cycle and check again</p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>FUEL MODE Selector:</b> AUTO/MAN AS REQ</span>
+        </label>
+        <p>A321: CHECK AUTO</p>
+        <p>A318, A319, A320 - If centre tank less than 200kg: MAN, CTR TK 1 & 2 pbs: OFF</p>
+        <p>A318, A319, A320 - If centre tank NOT less than 200kg: CHECK AUTO</p>
 
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>L/G Down:</b> ORDER</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pm"><b>Spoilers:</b> ARM</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pm"><b>Runway Turnoff Lights:</b> ON</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pm"><b>Nose Light:</b> TO</span>
-</label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Eng 1 & 2 Fire Test:</b> TEST/ECAM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Audio Switching:</b> NORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Vent Panel:</b> No Whites</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Third ACP:</b> PA Knob Recept</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Maint Panel:</b> No Whites</span>
+        </label>
+        
+        <p><b><u>Centre Instrument Panel</u></b></p>
+        
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Standby Instrument/ISIS:</b> CHECK/SET QNH</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Clock:</b> CHECK/SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* A/Skid & N/W Strg:</b> ON</span>
+        </label>
 
-<p><b><u>When L/G Down:</u></b></p>
+        <p><b><u>Pedestal</u></b></p>
 
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>Flaps 3:</b> ORDER</span>
-</label>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pm"><b>ECAM WHEEL Page:</b> CHECK</span>
-</label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ACP:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Switching Panel:</b> NORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Cockpit Door:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Thrust Levers:</b> IDLE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Eng Masters:</b> CHECK OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Eng Mode Selector:</b> CHECK NORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Parking Brake Pressure:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Gravity Gear Ext:</b> STOWED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* ATC Transponder:</b> STBY</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>RMP:</b> SET/TUNE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* Airfield Data:</b> OBTAIN (ATIS)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* BAV Merlin:</b> SETUP/PRIME</span>
+        </label>
 
-<p><b><u>When Flaps 3:</u></b></p>
+        <p><b><u>FMGS Preparation</u></b></p>
 
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>Flaps Full:</b> ORDER</span>
-</label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* ATSU:</b> IMPORT F-PLAN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* D - Data:</b> CHECK A/C AND ENG TYPE, DATABASE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* I - Init A:</b> REQ / FLT NO / CI / CRZ / WIND</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* F - Flight Plan:</b> DEP / ROUTE / PLAN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* S - Sec Flight Plan:</b> COPY / RETURN / EOSID</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* R - Rad Nav:</b> AS REQ</span>
+        </label>
 
-<p><b><u>At 1000 ft Rad Alt:</u></b></p>
+        <p><b><u>Glareshield - When both pilots seated</u></b></p>
 
-<p><b>Stablished approach criteria - else Go-Around:</b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>* Baro Reference:</b> SET QNH/Check Altitude (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>* FD:</b> ON (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>* LS:</b> AS REQ (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>* ND Mode/Range:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>* VOR/ADF Selector:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* FCU:</b> SET</span>
+        </label>
 
-<ul>
-    <li>On final descent path</li>
-    <li>At VAPP speed</li>
-    <li>In landing configuration</li>
-</ul>
+        <p><b><u>Lateral Console</u></b></p>
 
-<p><b>Announce any deviation in excess of:</b></p>
-<ul>
-    <li>LOC: 1/2 dot</li> 
-    <li>G/S: 1/2 dot</li>
-</ul>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>OXY MASK:</b> TEST (BOTH)</span>
+        </label>
 
-<div class="list">
-    <h2 class="checklist">Landing Checklist</h2>
-    <label>
-        <input type="checkbox" name="">
-        <i></i>
-        <span class="checklist"><b>AUTOBRAKE:</b> ( ___ )</span>
-    </label>
-    <label>
-        <input type="checkbox" name="">
-        <i></i>
-        <span class="checklist"><b>ECAM MEMO:</b> LDG NO BLUE</span>
-    </label>
-</div>
+        <p><b><u>Instrument Panel</u></b></p>
 
-<p><b><u>At 350 ft:</u></b></p>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pm"><b>LAND Mode:</b> CHECK ENGAGED</span>
-</label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>PFD/ND/Speaker:</b> AS REQ (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>* PFD/ND:</b> CHECK (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>* LDG ELEV (ECAM):</b> CHECK AUTO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>* ECAM STATUS:</b> CHECK</span>
+        </label>
 
-<p><b><u>At minimum:</u></b></p>
-<label>
-    <input type="checkbox" name="">
-    <i></i>
-    <span class="pf"><b>CONTINUE or GO AROUND:</b> ANNOUNCE</span>
-</label>
-<label>
-    <span><a href="#landing">Landing</a></span>
-</label>
-<label>
-    <span><a href="#goaround">Go Around</a></span>
-</label>
+        <p><b><u>FMGS Data Confirmation</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Airfield Data:</b> CONFIRM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ATC Clearance:</b> OBTAIN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Initial SID Altitude:</b> SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Transponder Code:</b> SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>FMS Preparation:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Airfield Data:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMS Preparation:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>IRS ALIGN:</b> CHECK</span>
+        </label>
+        
+
+        <p><b><u>FMGS Critical Data Entry Procedure</u></b></p>
+
+        <p>After fuel loading completed and prelim or final loadsheet available</p>
+        <p>Late close out: If prelim figures add +1000kg to TOW for Perf Calc</p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Loadsheet:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Takeoff Data:</b> PREPARE/CHECK</span>
+        </label>
+        
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>I - Init B:</b> INSERT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>P - Perf:</b> INSERT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Green Dot/Clean Speed:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Preset Speeds:</b> As Req</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>APU Start:</b> ON (if not already on -15m)</span>
+        </label>
+
+        <p><b><u>Departure Briefing</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Charts:</b> Prepare</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Briefing:</b> PERFORM</span>
+        </label>
+        <ul>
+            <li>Threats</li>
+            <li>MEL Items</li>
+            <li>Notams</li>
+            <li>Weather</li>
+            <li>Departure Alternative</li>
+            <li>Taxi, Single Eng Taxi, Runway</li>
+            <li>DATA REF</li>
+            <li>INIT A/B</li>
+            <li>F-PLN: SID, Charts, Turn, CSTR, Alt, MSA, Trip Time</li>
+            <li>RAD NAV</li>
+            <li>PROG</li>
+            <li>PERF</li>
+            <li>Climb/Cruise Speeds</li>
+            <li>FUEL PRED</li>
+            <li>SEC F-PLN</li>
+            <li>Emergency Briefing</li>
+            <li>Review</li>
+        </ul>
+    </div>
+
+    <div class="list">
+        <h2>Before Pushback/Start</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Fuel Pumps:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FOB:</b> CHECK ECAM v OFP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMS PERF TO Page:</b> SELECT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>FOB:</b> CHECK ECAM v OFP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>FMS F-PLN Page:</b> SELECT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>EXT PWR:</b> REQUEST/DISCONNECT</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">Before Start Checklist - to the line</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>COCKPIT PREP:</b> COMPLETED (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>BARO REF:</b> ____ SET (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ACARS:</b> INITIALISED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>PARK BRK:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FOB:</b> ____ kg</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>INIT B:</b> LOADED</span>
+        </label>
+            <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FLEX TEMP:</b> ____</span>
+        </label>
+            <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>SPEEDS:</b> ___ ___ ___</span>
+        </label>
+        
+    </div>
+    
+    <div class="list">
+        <h2>Before Pushback/Start (continued)</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Pushback/Start Clearance:</b> OBTAIN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Beacon:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Seat Belts:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Windows/Doors:</b> CHECK CLOSED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Thurst Levers:</b> IDLE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Transponder:</b> AUTO/ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ACCU PRESS:</b> CHECK GREEN BAND</span>
+        </label> 
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>BAV Merlin:</b> START</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Clock:</b> Start on off-blocks</span>
+        </label>
+
+        <p><b><u>If pushback IS NOT required:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Parking Brake:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Brake Press indicator:</b> CHECK</span>
+        </label>
+
+        <p><b><u>If pushback IS required:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>NW STRG DISC MEMO:</b> CHECK</span>
+        </label>
+
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">Before Start Checklist - below the line</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>SIGNS:</b> ON & AUTO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>BEACON:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ATC:</b> AUTO or XPDR</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>N WHEEL STEERG DISC:</b> AS RQRD</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>WINDOWS and DOORS:</b> CLOSED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FLT DECK DOOR:</b> LOCKED</span>
+        </label>
+    </div>
+    <div class="list">
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Parking Brake:</b> OFF</span>
+        </label>
+
+        <p><b><u>When pushback is completed:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Parking Brake:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Brake Press indicator:</b> CHECK</span>
+        </label>
+    </div>
+    
+    <div class="list">
+        <h2>Engine Start</h2>
+        <p><b><u>Single Engine Taxi Out:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine 1 Start:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine 1 Master:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine Idle Parameters:</b> CHECK</span>
+        </label>
+
+        <p><b><u>Both Engines Start:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine Mode Selector:</b> IGN/START</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine 2 Start:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine 2 Master:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine Idle Parameters:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine 1 Start:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine 1 Master:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine Idle Parameters:</b> CHECK</span>
+        </label>
+    </div>
+    
+    <div class="list">
+        <h2>After Start Flow</h2>
+        <p>Shutdown period greater than 2 hours: Engines must run up for at least 5 mins (including Taxi)</p>
+        <p>Shutdown period less than 2 hours: Engines must run up for at least 2 mins (including Taxi)</p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine Mode Selector:</b> NORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>APU Bleed:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Anti Ice:</b> OAT <=10C & V/Moisture</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>APU Master:</b> AS RQRD</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>X-Bleed:</b> AS REQ IF ONE ENG TAXI (NOT NEO)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Y Elec Pump:</b> AS REQ IF ONE ENG TAXI</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Spoilers:</b> ARM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Rudder Trim:</b> CHECK ZERO/RESET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Flaps:</b> SET (exc icing+rain/snow)</span>
+        </label>
+
+        <p>If Icing conditions with Rain/Slush/Snow: SET FLAPS at HOLDING POINT</p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Pitch Trim:</b> SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ECAM DOOR:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>N/W STEER DISC MEMO:</b> NOT DISPLAYED</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">After Start Checklist</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>GROUND CREW CLEARANCE:</b> SEEN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ANTI ICE:</b> ____</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FLAPS:</b> CONF ____ (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>APU:</b> ____</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>Y ELEC PUMP:</b> ____</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ECAM STATUS:</b> CHECKED</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Taxi</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Taxi Clearance:</b> OBTAIN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Rwy & Taxi Lights:</b> ON</span>
+        </label>
+
+        <p><b><u>Taxi clearance obtained:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Check Clear:</b> LEFT / RIGHT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Parking Brake:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Brakes:</b> CHECK</span>
+        </label>
+
+        <p>STROBES ON if crossing a runway</p>
+
+        <p><b><u>Loadsheet received:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Loadsheet:</b> ACKNOWLEDGE</span>
+        </label>
+        
+        <p>REVISIONS: Adjust in FMGS and Pitch Trim, Recalculate TO Data</p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Gross Weight:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Gross Weight:</b> CONFIRM</span>
+        </label>
+
+        <p><b><u>ATC clearance obtained:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ATC Clearance:</b> CONFIRM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>FMGS F-PLN/SID:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>FCU ALT/HDG:</b> SET, HDG or NAV</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Both FD:</b> CHECK ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Flight Instuments & FMA:</b> CHECK (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Radar and PWS:</b> ON/AUTO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ATC Code:</b> CONFIRM/SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>TCAS:</b> TA/RA</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>TERR ON ND:</b> AS REQ (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Departure Brief:</b> RWY/INT/SID/PACKS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Cabin Report:</b> MONITOR</span>
+        </label>
+
+        <p><b><u>Delayed Engine 2 start (if required):</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Start Engine 2:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>OET Supp Procedure:</b> PERFORM</span>
+        </label>
+
+        <p><b><u>When Engine 2 started:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Flight Controls:</b> CHECK (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Auto Brake:</b> MAX</span>
+        </label>
+    
+        <p><b><u>When TO point confirmed:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>TO Data:</b> CHECK (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Flaps:</b> SET (if delayed)</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">Before Takeoff Checklist - to the line</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FLIGHT CONTROLS:</b> CHECKED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>TCAS:</b> TA/RA or TFC</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>LOADSHEET:</b> ACK'D</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>TRIMS:</b> ( ___ )% & ZERO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>DEPARTURE BRIEF:</b> CONFIRMED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>TO DATA:</b> ( ___ ) (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FLAPS:</b> CONF ( ___ ) (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ECAM MEMO:</b> T.O NO BLUE</span>
+        </label>
+        <p style="color: #00BFFF;">- - - ENTERING RUNWAY - - -</p>
+    </div>
+
+    <div class="list">
+        <h2>Before Takeoff</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Brake Temp:</b> CHECK</span>
+        </label>
+
+        <p>If brake temp is above 150C - delay takeoff</p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Brake Fans:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Takeoff/Line Up Clearance:</b> OBTAIN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Strobe:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Landing Lights:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nose Light:</b> TO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Cabin Crew:</b> ADVISE</span>
+        </label>
+
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Approach Clear:</b> CHECK (BOTH)</span>
+        </label>
+
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Engine Mode Selector:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Sliding Table:</b> STOW (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Takeoff Runway:</b> CONFIRM (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>PACK 1 + 2:</b> AS REQ</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">Before Takeoff Checklist - below the line</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>TAKE OFF RWY:</b> ( ___ ) (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>CABIN CREW SIGNAL:</b> GIVEN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>PACKS:</b> ( ___ )</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Takeoff</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Takeoff:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Brakes:</b> RELEASE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thurst:</b> 0.5 EPR IAE/50% N1 CFM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thurst:</b> FLEX/TOGA</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Side Stick:</b> HALF FWD</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Chrono:</b> START</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMA:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Thrust Set:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>PFD/ENG:</b> SCAN</span>
+        </label>
+
+        
+        <p><b><u>At 100 kt:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>100 KNOTS:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Side Stick:</b> NEUTRAL</span>
+        </label>
+
+        <p><b><u>At V1/VR:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>V1/Rotate:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Rotation:</b> PERFORM</span>
+        </label>
+
+        <p><b><u>When positive climb:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Positive Climb:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Gear Up:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Landing Gear:</b> UP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Auto Pilot:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMA:</b> ANNOUNCE</span>
+        </label>
+
+        <p><b><u>At Thrust Reduction Altitude:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thrust: </b> CL</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMA:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Packs (if applicable):</b> ON (10 secs apart)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Chrono:</b> RESET</span>
+        </label>
+
+        <p><b><u>Acceleration:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flap Retraction:</b> ORDER</span>
+        </label>
+
+        <p><b><u>After Flaps 0:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Spoilers:</b> DISARM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Runway Turnoff Light:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nose Light:</b> OFF</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>After Takeoff</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU Bleed:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU Master:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Eng Mode Selector:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Anti Ice:</b> AS REQ</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">After Takeoff/Climb Checklist - down to the line</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>L/G:</b> UP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ECAM:</b> CHECKED</span>
+        </label>
+        <p style="color: #00BFFF;">- - - STD Set - - -</p>
+
+        <p><b><u>When cleared to a Flight Level</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Baro Ref:</b> SET STD/X CHECK (BOTH)</span>
+        </label>
+        
+    </div>
+    <div>
+        
+    </div>
+    <div class="list">
+        <h2 class="checklist">After Takeoff/Climb Checklist - below the line</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>Baro Ref:</b> ( ___ ) (BOTH)</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>10,000 Feet</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Altimeter Check:</b> FL100/Climbing FLxxx</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Landing Lights:</b> RETRACT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Seat Belts:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>EFIS:</b> BOTH AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ECAM Memo:</b> REVIEW</span>
+        </label> 
+
+        <p><b><u>* Performed upon PF request or approval:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* FUEL PRED:</b> UPDATE</span>
+        </label> 
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* NAVAIDS:</b> CLEAR</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* SEC FPLN:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>* OPT/MAX ALT:</b> CHECK</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Cruise</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>TCAS:</b> ALL</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ECAM Memo/SYS Pages:</b> REVIEW</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Flight Progress:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Fuel:</b> MONITOR</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nav Accuracy:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Cabin Temp</b> MONITOR</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Descent Preparation</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>WX and Landing Info:</b> OBTAIN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Charts:</b> PREPARE (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Landing Performance:</b> COMPUTE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Landing Performance:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMS:</b> PREPARE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>FMS:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>GPWS LDG FLAP 3:</b> IF REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>LDG Elevation:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Auto Brake:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Approach Briefing</b> PERFORM</span>
+        </label>
+        <ul>
+            <li>Threats</li>
+            <li>ECAM Status</li>
+            <li>Weather/QNH</li>
+            <li>Departure Alternative</li>
+            <li>STAR, Trans Level, Constraints, MSA</li>
+            <li>Appr, Freq, Course, Elev, Nav Accuracy</li>
+            <li>Glideslope, Intercept Alt, Mins, Go-around procedure</li>
+            <li>Rwy, Landing Perf, Flaps, Auto-Brake</li>
+            <li>Alterate Rwy, SEC F-PLN</li>
+            <li>Rwy Exit, Taxi, Parking</li>
+            <li>Alternates, Fuel</li>
+            <li>Review</li>
+        </ul>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Terr on ND:</b> AS REQ (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Anti Ice:</b> AS REQ</span>
+        </label>        
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Descent Clearance:</b> OBTAIN</span>
+        </label> 
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Cleared Altitude on FCU:</b> SET</span>
+        </label> 
+    </div>
+
+    <div>
+        <p><b><u>BA Standard Operations: Monitored Approach</u></b></p>
+        <p>Approaching TOD and after briefing, control is transferred.</p>
+        <p style="color: yellow">Landing Pilot will be PM</p>
+        <p style="color: #66FF00;">Non-Landing Pilot will be PF</p>
+        <p>Control returned to Landing Pilot at 1000R or when visual references are achieved (whichever is later)</p>
+    </div>
+
+    <div class="list">
+        <h2>Descent</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Descent:</b> Initiate (apx 5nm to TOD)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMA:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>TCAS:</b> SET BELOW</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Speedbrake:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Terr on ND:</b> BOTH AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ECAM Status:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Speed:</b> Plan for 250 KTS by 10,000 ft (or as ATC)</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>10,000 Feet</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Altimeter Check:</b> FL100/DES FLxxx</span>
+        </label>
+        
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Landing Lights:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Seat Belts:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>EFIS:</b> CSTR (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>EFIS LS:</b> ON (if ILS) (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>RAD NAVAIDS:</b> Tuned, ILS, Course</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Engine Mode Selector:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>APPR Phase:</b> CONSIDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Speed:</b> SELECTED/MANAGED</span>
+        </label>
+
+        <p><b><u>if GPS Primary not available:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>NAV Accurary:</b> CHECK (BOTH)</span>
+        </label>
+
+        <p><b><u>When cleared to an altitude:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Baro Ref:</b> SET/X CHECK</span>
+        </label>        
+    </div>
+
+    <div id="approach_config" class="list">
+        <h2>Approach Configuration</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Eng Mode Selector:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>F-PLN Sequencing:</b> ADJUST</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>APPR PHASE:</b> ACTIVATE or set green dot</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Speed:</b> SELECTED/MANAGED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flight Path:</b> MONITOR</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nav Accuracy:</b> MONITOR</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Speed Brakes:</b> AS REQ</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">Approach Checklist</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ECAM STATUS:</b> CHECKED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>Approach Brief:</b> (APPR/RWY) CONFIRMED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>MINIMA:</b> ( ___ ) BARO/RADIO SET (BOTH)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>APPROACH PHASE:</b> ACTIVE</span>
+        </label>
+        <p style="color: #00BFFF;">- - - QNH Set - - -</p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>BARO REF:</b> ( ___ ) (BOTH)</span>
+        </label>
+    </div>
+
+
+    <div class="list">
+        <h2>Select Approach</h2>
+        <label>
+            <span><a href="#approach_loc">LOC G/S Guidance (ILS)</a></span>
+        </label>
+        <label>
+            <span><a href="#approach_finalapp">FINAL APP Guidance</a></span>
+        </label>
+        <label>
+            <span><a href="#approach_fpa">FPA Guidance</a></span>
+        </label>
+    </div>
+
+    <div id="approach_loc" class="list">
+        <h2>Approach using LOC G/S Guidance (ILS)</h2>
+
+        <p><b><u>At green dot:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 1:</b> ORDER</span>
+        </label>
+
+        <p><b><u>Before Intercept of ILS:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Approach button:</b> PRESS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Both AP:</b> ENGAGE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>LOC:</b> CHECK ARMED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>G/S:</b> CHECK ARMED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>LOC CAPTURE:</b> MONITOR</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>G/S CAPTURE:</b> MONITOR</span>
+        </label>
+        <p><b><u>When G/S Captured:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>G/A Altitude:</b> SET</span>
+        </label>
+
+        <p><b><u>At 2000 ft AGL:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 2:</b> ORDER</span>
+        </label>
+
+        <p><b><u>When Flaps 2:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>L/G Down:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Spoilers:</b> ARM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Runway Turnoff Lights:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nose Light:</b> TO</span>
+        </label>
+
+        <p><b><u>When L/G Down:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 3:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ECAM WHEEL Page:</b> CHECK</span>
+        </label>
+
+        <p><b><u>When Flaps 3:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps Full:</b> ORDER</span>
+        </label>
+
+        <p><b><u>At 1000 ft Rad Alt:</u></b></p>
+
+        <p><b>Stablished approach criteria - else Go-Around:</b></p>
+
+        <ul>
+            <li>On final descent path</li>
+            <li>At VAPP speed</li>
+            <li>In landing configuration</li>
+        </ul>
+
+        <p><b>Announce any deviation in excess of:</b></p>
+        <ul>
+            <li>LOC: 1/2 dot</li> 
+            <li>G/S: 1/2 dot</li>
+        </ul>
+
+        <div class="list">
+            <h2 class="checklist">Landing Checklist</h2>
+            <label>
+                <input type="checkbox" name="">
+                <i></i>
+                <span class="checklist"><b>AUTOBRAKE:</b> ( ___ )</span>
+            </label>
+            <label>
+                <input type="checkbox" name="">
+                <i></i>
+                <span class="checklist"><b>ECAM MEMO:</b> LDG NO BLUE</span>
+            </label>
+        </div>
+
+        <p><b><u>At 350 ft:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>LAND Mode:</b> CHECK ENGAGED</span>
+        </label>
+
+        <p><b><u>At minimum:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>CONTINUE or GO AROUND:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <span><a href="#landing">Landing</a></span>
+        </label>
+        <label>
+            <span><a href="#goaround">Go Around</a></span>
+        </label>
+    </div>
+
+    <div id="approach_finalapp" class="list">
+        <h2>Approach using FINAL APP Guidance</h2>
+
+        <p><b><u>At green dot:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 1:</b> ORDER</span>
+        </label>
+
+        <p><b><u>Before Final Descent Point:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Approach button:</b> PRESS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>APP NAV:</b> CHECK ARMED or ENGAGED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FINAL:</b> CHECK ARMED</span>
+        </label>
+
+        <p><b><u>At Final Descent Point:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FINAL APP:</b> CHECK ENGAGED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>G/A Altitude:</b> SET</span>
+        </label>
+
+        <p><b><u>At 2000 ft AGL:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 2:</b> ORDER</span>
+        </label>
+
+        <p><b><u>When Flaps 2:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>L/G Down:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Spoilers:</b> ARM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Runway Turnoff Lights:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nose Light:</b> TO</span>
+        </label>
+
+        <p><b><u>When L/G Down:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 3:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ECAM WHEEL Page:</b> CHECK</span>
+        </label>
+
+        <p><b><u>When Flaps 3:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps Full:</b> ORDER</span>
+        </label>
+
+        <p><b><u>At 1000 ft Rad Alt:</u></b></p>
+
+        <p><b>Stablished approach criteria - else Go-Around:</b></p>
+
+        <ul>
+            <li>On final descent path</li>
+            <li>At VAPP speed</li>
+            <li>In landing configuration</li>
+        </ul>
+
+        <p><b>Announce any deviation in excess of:</b></p>
+        <ul>
+            <li>XTK: 0.1 nm</li> 
+            <li>V/DEV: 1/2 dot</li>
+        </ul>
+
+        <div class="list">
+            <h2 class="checklist">Landing Checklist</h2>
+            <label>
+                <input type="checkbox" name="">
+                <i></i>
+                <span class="checklist"><b>AUTOBRAKE:</b> ( ___ )</span>
+            </label>
+            <label>
+                <input type="checkbox" name="">
+                <i></i>
+                <span class="checklist"><b>ECAM MEMO:</b> LDG NO BLUE</span>
+            </label>
+        </div>
+
+        <p><b><u>At minimum:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>CONTINUE or GO AROUND:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <span><a href="#landing">Landing</a></span>
+        </label>
+        <label>
+            <span><a href="#goaround">Go Around</a></span>
+        </label>
+    </div>
+
+    <div id="approach_fpa" class="list">
+        <h2>Approach using FPA Guidance</h2>
+
+        <p><b><u>At green dot:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 1:</b> ORDER</span>
+        </label>
+
+        <p><b><u>Before Intercept:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>LOC button (for LOC only):</b> PRESS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>LOC:</b> CHECK ARMED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Lateral Path:</b> INTERCEPT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>TRK FPA (Bird):</b> SELECT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FPA for Final Approach:</b> SET</span>
+        </label>
+
+        <p><b><u>At 0.3 nm from Final Descent Point:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FPA button:</b> PULL</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FPA:</b> CHECK ENGAGED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Position/Flight Path:</b> MONITOR/ADJUST</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>G/A Altitude:</b> SET</span>
+        </label>
+
+        <p><b><u>At 2000 ft AGL:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 2:</b> ORDER</span>
+        </label>
+
+        <p><b><u>When Flaps 2:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>L/G Down:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Spoilers:</b> ARM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Runway Turnoff Lights:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nose Light:</b> TO</span>
+        </label>
+
+        <p><b><u>When L/G Down:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps 3:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ECAM WHEEL Page:</b> CHECK</span>
+        </label>
+
+        <p><b><u>When Flaps 3:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flaps Full:</b> ORDER</span>
+        </label>
+
+        <p><b><u>At 1000 ft Rad Alt:</u></b></p>
+
+        <p><b>Stablished approach criteria - else Go-Around:</b></p>
+
+        <ul>
+            <li>On final descent path</li>
+            <li>At VAPP speed</li>
+            <li>In landing configuration</li>
+        </ul>
+
+        <p><b>Announce any deviation in excess of:</b></p>
+        <ul>
+            <li>Using NAV Mode: XTK > 0.1 nm</li> 
+            <li>Using LOC Mode: LOC 1/2 dot</li>
+            <li>Using TRK Mode (VOR): 1/2 dot or 2.5 deg</li>
+            <li>Using TRK Mode (NDB): 5 deg</li>
+        </ul>
+
+        <div class="list">
+            <h2 class="checklist">Landing Checklist</h2>
+            <label>
+                <input type="checkbox" name="">
+                <i></i>
+                <span class="checklist"><b>AUTOBRAKE:</b> ( ___ )</span>
+            </label>
+            <label>
+                <input type="checkbox" name="">
+                <i></i>
+                <span class="checklist"><b>ECAM MEMO:</b> LDG NO BLUE</span>
+            </label>
+        </div>
+
+        <p><b><u>At minimum:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>CONTINUE or GO AROUND:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <span><a href="#landing">Landing</a></span>
+        </label>
+        <label>
+            <span><a href="#goaround">Go Around</a></span>
+        </label>
+    </div>
+
+    <div id="goaround" class="list">
+        <h2>Go Around</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thrust: </b> TO/GA</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Rotation:</b> PERFORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>GO AROUND/FLAPS:</b> ANNOUNCE </span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Flaps:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMA:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Positive Climb:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>L/G UP:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>L/G:</b> SELECT UP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Auto Pilot:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>NAV/HDG Mode:</b> AS REQ</span>
+        </label>
+
+        <p><b><u>At G/A Thrust Reduction Altitude:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thrust: </b> CL</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>FMA:</b> ANNOUNCE</span>
+        </label>
+
+        <p><b><u>At G/A Acceleration Altitude:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flap Retraction:</b> ORDER</span>
+        </label>
+
+        <p><b><u>After Flaps 0:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Spoilers:</b> DISARM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Runway Turnoff Light:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nose Light:</b> OFF</span>
+        </label>
+        <label>
+            <span class="checklist"><b>After Takeoff Checklist - down to the line</b></span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>L/G:</b> UP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ECAM:</b> CHECKED</span>
+        </label>
+        <p style="color: #00BFFF;">- - - STD Set - - -</p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>BARO REF:</b> ( ___ ) BOTH</span>
+        </label>
+        <label>
+            <span><a href="#approach_config">Approach Config</a></span>
+        </label>
+    </div>    
+
+    <div id="landing" class="list">
+        <h2>Landing</h2>
+        <p><b><u>At approx 30 ft:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Flare:</b> PERFORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thrust:</b> IDLE</span>
+        </label>
+
+        <p><b><u>At touchdown:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>De-rotation:</b> INITIATE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thrust:</b> REV MAX/REV IDLE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Spoilers:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Reversers:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Decel:</b> ANNOUNCE</span>
+        </label>
+
+        <p><b><u>At 70 kt:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>70 kt:</b> ANNOUNCE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Thrust:</b> REV IDLE</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Manual Braking:</b> AS REQ</span>
+        </label>
+
+        <p><b><u>At Taxi Speed:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Reversers:</b> STOW</span>
+        </label>
+
+        <p><b><u>Before 20kt:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Auto-Brake:</b> DISENGAGE</span>
+        </label>
+    </div>
+
+    <div id="after_landing" class="list">
+        <h2>After Landing</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Spoilers:</b> DISARM</span>
+        </label>
+
+        <p><b><u>Upon Spoilers Disarm - Signal for PM to commence after landing items:</u></b></p>
+
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Landing Lights:</b> RETRACT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Strobe:</b> AUTO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Nose Light:</b> TAXI</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Radar & PWS:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Engine Mode Selector:</b> NORM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Flaps:</b> RETRACT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>TCAS:</b> STANDBY</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU:</b> START</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Anti Ice:</b> AS REQ</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">After Landing Checklist</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>EXTERIOR LIGHTS:</b> SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FLAPS:</b> ZERO</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>GROUND SPOILERS:</b> DISARM</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>APU:</b> START</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>RADAR/PWS:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>TCAS:</b> STBY</span>
+        </label>
+        <p style="color: #00BFFF;">Consider ONE ENGINE TAXI ARRIVAL</p>
+        <p><b><u>One Engine Taxi:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Engine 2:</b> SHUT DOWN</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Y ELEC PUMP:</b> ON</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Parking</h2>
+        <p><b><u>Approaching Parking Position:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Slides Disarm:</b> ORDER</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Runway Turnoff Light:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Nose Light:</b> OFF</span>
+        </label>
+        <p><b><u>At parking position:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>ACCU Pressure:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Parking Brake:</b> SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Engine Masters:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Clock:</b> STOP OBT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Slides:</b> CHECK DISARMED</span>
+        </label>
+
+        <p><b><u>Engines spooled down and slides disarmed:</u></b></p>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Beacon:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Seat Belts:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Fuel Pumps:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Transponder:</b> 2000/STANDBY</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>IRS Performance:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Fuel Qty:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Status:</b> CHECK</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Brake Fans:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>Ground Equipment:</b> AS REQ</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>External Power:</b> ON (when Avail)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span><b>APU Master:</b> OFF (when on Ext Pwr)</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">Parking Checklist</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>PARK BRK:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ENGINES:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>SLIDES:</b> DISARMED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>BEACON:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>SEAT BELTS:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>FUEL PUMPS:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ATC:</b> x000/STBY</span>
+        </label>
+        <p style="color: #00BFFF;">Consider HEAVY RAIN</p>
+    </div>
+
+    <div class="list">
+        <h2>Securing the Aircraft</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pf"><b>Parking Brake:</b> CHECK ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>ADIRS (1+2+3):</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Oxy Crew Supply:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Exterior Lights:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Maint Bus Switch:</b> AS RQRD</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU Bleed:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>APU Master Switch:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Emer Exit Lt:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Signs:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Ext Power:</b> AS RQRD</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="pm"><b>Bat 1+2:</b> OFF</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2 class="checklist">Securing the Aircraft Checklist</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>ADIRS:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>EXTERNAL POWER:</b> ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>SIGNS:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>EMER EXIT LT:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>OXYGEN:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span class="checklist"><b>BATTERIES:</b> OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <p style="color: #00BFFF;">Consider COLD WEATHER</p>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Post Flight Review</h2>
+        <ul>
+            <li>File PIREP / Review SESMA</li>
+            <li>What happened and why</li>
+            <li>Was the outcome positive or not</li>
+            <li>How do we repeat or avoid</li>
+            <li>Impact on safety</li>
+            <li>Commercial Impact</li>
+            <li>Were SOPs followed</li>
+            <li>What are the learning points</li>
+            <li>Further action required</li>
+        </ul>
+    </div>
+
+    <div>
+        <hr>
+        <p><b><u>Credits</u></b></p>
+        <p>Information taken from BAV-A32N-FCOM and BAV-A3N-CL</p>
+        <p>This web version produced by Rob Adams BAW740</p>
+    </div>
+    
+</body>
+</html>
